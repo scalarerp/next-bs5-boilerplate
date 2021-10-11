@@ -1,0 +1,10 @@
+@import 'themes/palette';
+@import 'themes/light';
+@import 'themes/dark';
+
+
+//Commons
+$greeting-text: map-get($palette, white_);
+
+// Typographic
+$typographic-font-family: 'Roboto', sans-serif !important;

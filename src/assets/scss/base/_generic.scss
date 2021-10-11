@@ -1,0 +1,27 @@
+/** 
+ * Generic
+ */
+
+/**
+* global variables
+*/
+
+/*SET LIGHT THEMES VARIABLES*/
+:root {
+    @each $name, $color in $colors {
+      --color-#{$name}: #{$color};
+    }
+  }
+  
+  body {
+    margin: 0;
+    font-family: $typographic-font-family;
+  }
+  
+  /*SET DARK THEMES VARIABLES*/
+  body.dark {
+    @each $name, $color in $colors-dark {
+      --color-#{$name}: #{$color};
+    }
+  }
+  

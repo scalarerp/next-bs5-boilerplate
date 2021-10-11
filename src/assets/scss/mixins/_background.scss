@@ -1,0 +1,13 @@
+@mixin repeatingLinearGradientStripped($angle, $colorStop1, $colorStop2, $colorStop3, $colorStop4) {
+    background: repeating-linear-gradient(
+        $angle,
+        $colorStop1,
+        #{$colorStop2} 2px ,
+        #{$colorStop3} 2px,
+        #{$colorStop4} 8px
+    );   
+}
+
+@mixin backgroundAlpha($bgcolor, $alpha){
+    background-color: hsl($bgcolor, $alpha);
+}

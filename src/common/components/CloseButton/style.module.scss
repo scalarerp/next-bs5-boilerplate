@@ -1,0 +1,13 @@
+@import 'assets/scss/_functions.scss';
+
+.modal-btn-close {
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    // color: var(--color-input-color);
+    background: transparent none center/1em auto no-repeat;
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: 0.5;
+}
